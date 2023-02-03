@@ -1,0 +1,3 @@
+<template>
+    notification chuchu
+</template>
