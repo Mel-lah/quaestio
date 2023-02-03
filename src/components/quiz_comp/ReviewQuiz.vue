@@ -104,7 +104,7 @@ const storeCounter = useCounterStore();
         <p>Score:</p>
       </div>
       <div
-        class="flex flex-col overflow-y-scroll h-128 bg-white mx-5 rounded p-5 shadow">
+        class="flex flex-col overflow-y-scroll h-140 bg-white mx-5 rounded p-5 shadow">
         <div
           v-for="question in questions"
           class="flex flex-col bg-gray-200 rounded mb-5">

@@ -27,7 +27,7 @@ const storeCounter = useCounterStore();
             type="submit"
             value="Cancel"
             @click="storeCounter.showLogOutP()"
-            class="text-lg bg-beigeD h-10 w-36 rounded-lg shadow-lg hover:bg-beigeSD" />
+            class="text-lg font-semibold bg-beigeD h-10 w-36 rounded-lg shadow-lg hover:bg-beigeSD" />
           <input
             type="submit"
             value="Confirm"
@@ -38,7 +38,7 @@ const storeCounter = useCounterStore();
                 storeCounter.showEProfile(),
               ]
             "
-            class="text-lg bg-red-400 h-10 w-36 rounded-lg shadow-lg hover:bg-red-600" />
+            class="text-lg font-semibold bg-red-400 h-10 w-36 rounded-lg shadow-lg hover:bg-red-600" />
         </div>
       </div>
     </div>

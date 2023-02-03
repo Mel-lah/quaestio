@@ -12,7 +12,7 @@ import { ref } from "vue";
 <template>
   <HeaderComp />
 
-  <div class="flex flex-col md:grid md:grid-cols-2 px-10 py-6">
+  <div class="flex flex-col md:grid md:grid-cols-2 px-10 py-14">
     <div class="mb-10 md:mb-0 md:mr-5">
       <SubjectsComp />
     </div>

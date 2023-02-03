@@ -1,6 +1,7 @@
 <template>
   <div class="flex justify-center">
-    <div class="flex flex-col items-center bg-beigeL rounded py-20 px-32">
+    <div
+      class="flex flex-col items-center shadow-lg bg-beigeL rounded py-20 px-32">
       <input
         type="image"
         src="../../../public/Quaestio.png"

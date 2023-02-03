@@ -72,7 +72,7 @@ const storeCounter = useCounterStore();
           <textarea
             v-model="noteContent"
             wrap="hard"
-            class="p-2 h-140 w-full text-sm text-black rounded resize-none shadow focus:border-beigeD focus:ring-beigeD focus:ring-1 focus:outline-none focus:beigeD focus:shadow-lg"></textarea>
+            class="p-2 h-150 w-full text-sm text-black rounded resize-none shadow focus:border-beigeD focus:ring-beigeD focus:ring-1 focus:outline-none focus:beigeD focus:shadow-lg"></textarea>
         </div>
       </form>
     </div>

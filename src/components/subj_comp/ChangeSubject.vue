@@ -89,7 +89,7 @@ const storeCounter = useCounterStore();
       <div>
         <h3 class="font-bold text-xl ml-10 mb-2">Subjects</h3>
         <div
-          class="flex flex-col overflow-y-scroll pt-3 h-110 mb-8 bg-white mx-5 rounded shadow">
+          class="flex flex-col overflow-y-scroll pt-3 h-120 md:h-110 mb-8 bg-white mx-5 rounded shadow">
           <!-- Iterate all subject -->
           <div v-for="subj in subjects" class="mx-3">
             <div class="flex justify-center">

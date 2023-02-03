@@ -70,7 +70,7 @@ const storeCounter = useCounterStore();
 
 <template>
   <div class="flex justify-center">
-    <div class="bg-beigeL pb-16 rounded pl-20 pr-20">
+    <div class="bg-beigeL pb-16 rounded pl-20 pr-20 shadow-lg">
       <h1
         class="text-beigeSD text-5xl font-bold flex justify-center mt-10 mb-10">
         Sign In
@@ -96,7 +96,7 @@ const storeCounter = useCounterStore();
           <button
             :disabled="!email || !password"
             @click="[signIn(), storeCounter.showTitle(), setUserID()]"
-            class="w-80 text-lg bg-beigeD h-10 rounded-lg shadow-lg hover:bg-beigeSD disabled:border-bg-black">
+            class="w-80 text-lg font-semibold bg-beigeD h-10 rounded-lg shadow-lg hover:bg-beigeSD disabled:border-bg-black">
             Sign In
           </button>
         </div>

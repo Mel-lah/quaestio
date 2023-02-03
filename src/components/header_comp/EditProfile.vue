@@ -134,12 +134,12 @@ const storeCounter = useCounterStore();
           type="submit"
           value="Log Out"
           @click="storeCounter.showLogOutP()"
-          class="text-lg bg-red-400 h-10 w-52 md:mr-40 rounded-lg shadow-lg md:mb-0 mb-3 hover:bg-red-600" />
+          class="text-lg font-semibold bg-red-400 h-10 w-52 md:mr-40 rounded-lg shadow-lg md:mb-0 mb-3 hover:bg-red-600" />
         <input
           type="submit"
           value="Save"
           @click="updateProfile()"
-          class="text-lg bg-beigeD h-10 w-52 rounded-lg shadow-lg hover:bg-beigeSD md:mb-0 mb-5" />
+          class="text-lg font-semibold bg-beigeD h-10 w-52 rounded-lg shadow-lg hover:bg-beigeSD md:mb-0 mb-5" />
       </div>
     </div>
   </div>

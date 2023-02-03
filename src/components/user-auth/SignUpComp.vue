@@ -94,7 +94,7 @@ function proceed() {
 
 <template>
   <div class="flex justify-center">
-    <div class="bg-beigeL pb-16 rounded pl-20 pr-20">
+    <div class="bg-beigeL pb-16 rounded pl-20 pr-20 shadow-lg">
       <h1
         class="text-beigeSD text-5xl font-bold flex justify-center mt-10 mb-10">
         Sign Up
@@ -128,7 +128,7 @@ function proceed() {
           <button
             :disabled="!email || !userName || !password"
             @click="[createUser(), addUser(), proceed()]"
-            class="w-80 text-lg bg-beigeD h-10 rounded-lg shadow-lg hover:bg-beigeSD">
+            class="w-80 text-lg font-semibold bg-beigeD h-10 rounded-lg shadow-lg hover:bg-beigeSD">
             Sign Up
           </button>
         </div>

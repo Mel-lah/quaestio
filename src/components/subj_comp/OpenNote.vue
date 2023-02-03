@@ -87,17 +87,15 @@ const storeCounter = useCounterStore();
             v-model="noteTitle"
             wrap="hard"
             class="p-2 w-full text-lg font-se h-10 text-black rounded overflow-hidden overscroll-none resize-none shadow focus:outline-none focus:border-beigeD focus:ring-beigeD focus:ring-1 focus:shadow-lg">
-                        {{ noteTitle }}
-                    </textarea
+            >{{ noteTitle }}</textarea
           >
         </div>
         <div class="m-5 flex justify-between">
           <textarea
             v-model="noteContent"
             wrap="hard"
-            class="p-2 h-140 w-full text-sm text-black rounded resize-none shadow focus:outline-none focus:border-beigeD focus:ring-beigeD focus:ring-1 focus:shadow-lg">
-                        {{ noteContent }}
-                    </textarea
+            class="p-2 h-150 w-full text-sm text-black rounded resize-none shadow focus:outline-none focus:border-beigeD focus:ring-beigeD focus:ring-1 focus:shadow-lg"
+            >{{ noteContent }}</textarea
           >
         </div>
       </form>

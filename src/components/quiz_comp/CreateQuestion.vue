@@ -79,7 +79,7 @@ const storeCounter = useCounterStore();
 
       <button
         :disabled="!newQuestionQ"
-        class="text-lg bg-beigeD h-10 w-52 rounded-lg shadow-lg hover:bg-beigeSD">
+        class="text-lg font-semibold bg-beigeD h-10 w-52 rounded-lg shadow-lg hover:bg-beigeSD">
         Add Question
       </button>
     </form>
