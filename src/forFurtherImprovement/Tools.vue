@@ -1,6 +1,5 @@
 <template>
-    <!-- fucntion to delete and share -->
+  <!-- fucntion to delete and share -->
 
-
-    dropdown: Share and delete
+  dropdown: Share and delete
 </template>

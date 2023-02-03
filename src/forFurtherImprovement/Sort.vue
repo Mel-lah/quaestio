@@ -1,3 +1,1 @@
-<template>
-    sort
-</template>
+<template>sort</template>

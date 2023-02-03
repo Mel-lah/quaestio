@@ -7,12 +7,11 @@
 
 // const { sQuestion, sTag } = storeToRefs(useCounterStore());
 // const storeCounter = useCounterStore();
-
 </script>
 
 <template>
-<p>otheract</p>
-    <!-- <div class="">
+  <p>otheract</p>
+  <!-- <div class="">
         <div class="flex flex-row items-center justify-evenly h-16 border-solid border-beigeD border-1 rounded shadow-md bg-beigeL">
             <button  @click="storeCounter.showQuestions" class=" bg-beigeD py-2 w-40 rounded-3xl justify-center inline-flex items-center font-semibold hover:bg-beigeSD">
                 <img class="mr-2 w-3 h-3" src="/img/question-and-answer.png"/>

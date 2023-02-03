@@ -9,8 +9,8 @@
 </script>
 
 <template>
-    <p>profile</p>
-    <!-- <div class="flex justify-center items-center" >
+  <p>profile</p>
+  <!-- <div class="flex justify-center items-center" >
         get User upload pic, name, title, and status
         <button @click="storeCounter.showEProfile">
             <img class="h-32 w-36 border-solid border-1 border-beigeD rounded-md shadow-md hover:opacity-40" src="/img/ppic.png">
@@ -28,4 +28,3 @@
         </div>
     </div> -->
 </template>
-

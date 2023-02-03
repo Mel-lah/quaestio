@@ -1,3 +1,1 @@
-<template>
-    filter
-</template>
+<template>filter</template>

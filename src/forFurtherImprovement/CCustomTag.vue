@@ -1,3 +1,1 @@
-<template>
-    create custom tagS
-</template>
+<template>create custom tagS</template>

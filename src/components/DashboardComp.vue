@@ -7,26 +7,20 @@ import { ref } from "vue";
 // const inputToList = ref([]);
 // const listTitle = ref("");
 // const subject = ref([]);
-
 </script>
 
 <template>
-    <HeaderComp />
+  <HeaderComp />
 
-    <div class="flex flex-col md:grid md:grid-cols-2 px-10 py-7 ">
-       
-        <div class="mb-10 md:mb-0 md:mr-5 "> 
-            <SubjectsComp />      
-        </div>
-
-        <div class="md:ml-5">
-            <QuizzesComp />
-        </div> 
-       
-
-       
+  <div class="flex flex-col md:grid md:grid-cols-2 px-10 py-6">
+    <div class="mb-10 md:mb-0 md:mr-5">
+      <SubjectsComp />
     </div>
 
-    <RouterView />
-</template>
+    <div class="md:ml-5">
+      <QuizzesComp />
+    </div>
+  </div>
 
+  <RouterView />
+</template>

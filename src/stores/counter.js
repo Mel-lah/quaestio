@@ -1,7 +1,7 @@
 import { defineStore } from "pinia";
 
 export const useCounterStore = defineStore({
-  id: 'counter',
+  id: "counter",
   state: () => ({
     count: 0,
     //Modal
@@ -20,71 +20,78 @@ export const useCounterStore = defineStore({
     sReviewQuiz: false,
     sDelete: false,
     sLogOut: false,
+    sTitle: true,
     //firebase
   }),
   actions: {
-    increaseCount(){
+    increaseCount() {
       this.count++;
     },
-    decreaseCount(){
+    decreaseCount() {
       this.count--;
     },
-    showEProfile(){
+    showEProfile() {
       this.seProfile = !this.seProfile;
     },
-    showQuestions(){
+    showQuestions() {
       this.sQuestion = !this.sQuestion;
     },
-    showTag(){
+    showTag() {
       this.sTag = !this.sTag;
     },
-    showCSubject(){
+    showCSubject() {
       this.scSubj = !this.scSubj;
     },
-    showCQuiz(){
+    showCQuiz() {
       this.scQuiz = !this.scQuiz;
     },
-    showCNote(){
+    showCNote() {
       this.scNote = !this.scNote;
     },
-    showChangeSubj(){
+    showChangeSubj() {
       this.schngSubj = !this.schngSubj;
     },
-    showONote(){
+    showONote() {
       this.soNote = !this.soNote;
     },
-    showChangeQuiz(){
+    showChangeQuiz() {
       this.schngQuiz = !this.schngQuiz;
     },
-    showCQuestion(){
+    showCQuestion() {
       this.scQuestion = !this.scQuestion;
     },
-    showAQuestion(){
+    showAQuestion() {
       this.saQuestion = !this.saQuestion;
     },
-    showOQuestion(){
+    showOQuestion() {
       this.soQuestion = !this.soQuestion;
     },
-    showAnswerQuiz(){
+    showAnswerQuiz() {
       this.sAnswerQuiz = !this.sAnswerQuiz;
     },
-    showReviewQuiz(){
+    showReviewQuiz() {
       this.sReviewQuiz = !this.sReviewQuiz;
     },
-    showDeleteP(){
+    showDeleteP() {
       this.sDelete = !this.sDelete;
     },
-    showLogOutP(){
+    showLogOutP() {
       this.sLogOut = !this.sLogOut;
+    },
+    hideTitle() {
+      this.sTitle = false;
+    },
+    showTitle() {
+      this.sTitle = true;
     },
   },
   getters: {
     oddOrEven: (state) => {
-      if(state.count %2 === 0) return 'even'
-      return 'odd'
+      if (state.count % 2 === 0) return "even";
+      return "odd";
     },
     getUserID: (state) => {
-      return (userId) => state.userID.find((user) => user.id === userId)
-    }
-  }
+      return (userId) => state.userID.find((user) => user.id === userId);
+    },
+  },
 });

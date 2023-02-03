@@ -1,3 +1,1 @@
-<template>
-    notification chuchu
-</template>
+<template>notification chuchu</template>
